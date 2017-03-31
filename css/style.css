@@ -7,6 +7,9 @@
 @font-face {
   src: url("../fonts/Geometria.otf");
   font-family: 'Geometria'; }
+* {
+  transition: all .5s ease; }
+
 body {
   overflow-x: hidden; }
 
@@ -118,12 +121,11 @@ body {
         position: relative;
         justify-content: center;
         padding-bottom: 20px;
-        border-bottom: 1px solid #fff;
-        outline: none; }
+        border-bottom: 1px solid #fff; }
         .main .main_item .footer .social div {
           padding: 0 5px; }
           .main .main_item .footer .social div a {
-            text-decoration: none; }
+            outline: none; }
       .main .main_item .footer .contact {
         width: 100%;
         display: flex;
