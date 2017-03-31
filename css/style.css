@@ -13,6 +13,9 @@
 body {
   overflow-x: hidden; }
 
+a {
+  text-decoration: none; }
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -78,7 +81,7 @@ body {
       text-align: center;
       height: 200px;
       padding-top: 70px; }
-      @media screen and (max-width: 1280px) {
+      @media screen and (max-width: 1300px) {
         .main .main_item .text {
           height: 150px; } }
       .main .main_item .text .main_text {
@@ -89,7 +92,7 @@ body {
         .main .main_item .text .main_text span {
           line-height: 50px;
           font-weight: 100; }
-          @media screen and (max-width: 1280px) {
+          @media screen and (max-width: 1300px) {
             .main .main_item .text .main_text span {
               font-size: 30px;
               line-height: 35px; } }
@@ -124,8 +127,6 @@ body {
         border-bottom: 1px solid #fff; }
         .main .main_item .footer .social div {
           padding: 0 5px; }
-          .main .main_item .footer .social div a {
-            outline: none; }
       .main .main_item .footer .contact {
         width: 100%;
         display: flex;

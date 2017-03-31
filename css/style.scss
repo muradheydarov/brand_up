@@ -8,6 +8,9 @@
 body{
   overflow-x: hidden;
 }
+a{
+  text-decoration: none;
+}
 .main{
   width: $width_full;
   height: $height_full;
@@ -131,9 +134,6 @@ body{
           border-bottom: 1px solid $white;
           div{
             padding:0 5px;
-            a{
-              outline: none;
-            }
           }
         }
         .contact{
