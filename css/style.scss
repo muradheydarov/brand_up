@@ -88,6 +88,9 @@ a{
         @media screen and (max-width: $break-large) {
         height: 150px;
         }
+        @media screen and (max-width: $break-medium) {
+        height: 30vh;
+        }
         .main_text{
           color: $white;
           font-weight: bold;

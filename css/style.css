@@ -85,6 +85,9 @@ a {
       @media screen and (max-width: 1100px) {
         .main .main_item .text {
           height: 150px; } }
+      @media screen and (max-width: 660px) {
+        .main .main_item .text {
+          height: 30vh; } }
       .main .main_item .text .main_text {
         color: #fff;
         font-weight: bold;
