@@ -130,7 +130,7 @@ a{
         .social{
           @include flex;
           justify-content: center;
-          padding-bottom: 20px;
+          padding-bottom: 5%;
           border-bottom: 1px solid $white;
           div{
             padding:0 5px;
@@ -140,7 +140,7 @@ a{
           width: $width_percent;
           @include flex;
           justify-content: space-between;
-          padding-top: 20px;
+          padding-top: 5%;
           font-family: $mark_bold;
           div{
             width: $width_percent*0.9;
